@@ -2,9 +2,51 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    outline: solid green;
 }
 html,body{
     width: 100%;
     height: 100%;
     line-height: 1.5;
+}
+main{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    
+}
+main h1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    
+}
+.selection__container{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.player__container, .computer__container{
+    display: flex;
+    gap: 20px;
+}
+.player__section,.computer__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.img__container{
+    margin: 20px 0px;
+}
+
+i{
+    font-size: 2em;
 }
