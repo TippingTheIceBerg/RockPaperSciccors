@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
     outline: solid green;
+    background-color: rgb(0 255 0/.1  );
 }
 html,body{
     width: 100%;
@@ -46,7 +47,18 @@ main h1{
 .img__container{
     margin: 20px 0px;
 }
+.playerChoice:hover{
+    background-color: red;
+}
 
 i{
     font-size: 2em;
 }
+.winner__container{
+    margin-top: 20px;
+    padding: 20px;
+}
+.winner__text{
+    display: none;
+}
+
