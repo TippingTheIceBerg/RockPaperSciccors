@@ -47,8 +47,11 @@ main h1{
 .img__container{
     margin: 20px 0px;
 }
+.playerChoice,.computerChoice{
+    padding: 10px;
+}
 .playerChoice:hover{
-    background-color: red;
+    background-color: rgb(77 83 209 / 0.4);
     cursor: pointer;
 }
 
@@ -61,6 +64,7 @@ i{
 }
 .winner__text{
     display: none;
+    font-size: 1.2em;
 }
 
 .winning__screen  {
