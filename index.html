@@ -21,6 +21,9 @@
                     <p class="playerChoice" >Paper</p>
                     <p class="playerChoice" >Scissors</p>
                 </div>
+                <div class="player__score">
+                    0
+                </div>
             </section>
 
             <section class="computer__section">
@@ -32,6 +35,9 @@
                     <p class="computerChoice">Paper</p>
                     <p class="computerChoice">Scissors</p>
                 </div>
+                <div class="computer__score">
+                    0
+                </div>
             </section>
             </section>
         </div>
@@ -39,7 +45,11 @@
         <div class="winner__container">
             <p class="winner__text"></p>
         </div>
-
+        <div class="winning__screen">
+            <p class="winning__screen--player">You Won!</p>
+            <p class="winning__screen--computer">The Computer Won...</p>
+            <input type="button" value="Play Again?" class="winning__playAgain">
+        </div>
     </main>
 </body>
 <script src="./script.js"></script>
