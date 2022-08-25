@@ -42,7 +42,7 @@ function playRound (playerNumber, computerNumber, styleComputer){
     styleComputer = setComputerStyle();
     // Logic that decides what beats what
     // Rock = 0; Paper = 1; Scissors = 2
-    playerNumber == 0 && computerNumber == 2? winnerText.innerText = "Player Wins": playerNumber == 1 && computerNumber == 0? winnerText.innerText = "Player wins": playerNumber == 2 && computerNumber == 1? winnerText.innerText ="Player wins": playerNumber == computerNumber? winnerText.innerText = "It's a tie": winnerText.innerText = "Computer wins"
+    playerNumber == 0 && computerNumber == 2? winnerText.innerText = "player Wins": playerNumber == 1 && computerNumber == 0? winnerText.innerText = "player wins": playerNumber == 2 && computerNumber == 1? winnerText.innerText ="player wins": playerNumber == computerNumber? winnerText.innerText = "it's a tie": winnerText.innerText = "computer wins"
 
     // adds score, if the score of 5 is reached by either side, the winning screen will slide in and decide who won.
     addScore();
@@ -76,7 +76,7 @@ function setComputerStyle(){
     for(let i = 0; i < computerNumberStyle.length; i++ ){
         computerNumberStyle[i].style.backgroundColor = "rgb(0 0 0/.0)"
     }   
-    computerNumberStyle[computerChoice].style.backgroundColor = "graP"
+    computerNumberStyle[computerChoice].style.backgroundColor = "gray"
 }
 
 function setBackgroundColorOfChoice () {
