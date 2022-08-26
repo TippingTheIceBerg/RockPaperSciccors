@@ -10,6 +10,13 @@
 </head>
 <body>
     <main>
+        <div class="themeSelector__container">
+            <label for="darkMode">Light/Dark mode</label>
+            <select name="Mode" id="mainTheme" class="selectTheme">
+                <option value="Light Mode">Light Mode</option>
+                <option value="Dark Mode">Dark Mode</option>
+            </select>
+        </div>
         <h1>Can you win?</h1>
         <div class="selection__container">
             <section class="player__section">
@@ -22,7 +29,7 @@
                     <p class="playerChoice" >Scissors</p>
                 </div>
                 <div class="player__score">
-                    0
+                    <p>0</p>
                 </div>
             </section>
 
@@ -36,7 +43,7 @@
                     <p class="computerChoice">Scissors</p>
                 </div>
                 <div class="computer__score">
-                    0
+                    <p>0</p>
                 </div>
             </section>
             </section>

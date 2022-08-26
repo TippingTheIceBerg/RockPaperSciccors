@@ -10,6 +10,18 @@ let playerWinningScreen = document.querySelector('.winning__screen--player')
 let computerWinningScreen = document.querySelector('.winning__screen--computer')
 let replayTheGame = document.querySelector(".winning__playAgain")
 
+let select = document.querySelector(".selectTheme");
+let html = document.querySelector("html")
+
+function setTheme(bgColor, textColor){
+    html.style.backgroundColor = bgColor;
+    html.style.color = textColor
+}
+
+select.addEventListener("change",()=>{
+    select.value == "Dark Mode"?  setTheme("black","white"): setTheme("white","black")
+})
+
 
 
 
