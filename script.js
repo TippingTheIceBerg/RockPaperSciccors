@@ -54,7 +54,7 @@ function playRound (playerNumber, computerNumber, styleComputer){
     styleComputer = setComputerStyle();
     // Logic that decides what beats what
     // Rock = 0; Paper = 1; Scissors = 2
-    playerNumber == 0 && computerNumber == 2? winnerText.innerText = "player Wins": playerNumber == 1 && computerNumber == 0? winnerText.innerText = "player wins": playerNumber == 2 && computerNumber == 1? winnerText.innerText ="player wins": playerNumber == computerNumber? winnerText.innerText = "it's a tie": winnerText.innerText = "computer wins"
+    playerNumber == 0 && computerNumber == 2? winnerText.innerText = "Player Wins": playerNumber == 1 && computerNumber == 0? winnerText.innerText = "Player Wins": playerNumber == 2 && computerNumber == 1? winnerText.innerText ="Player Wins": playerNumber == computerNumber? winnerText.innerText = "It's A Tie": winnerText.innerText = "Computer Wins"
 
     // adds score, if the score of 5 is reached by either side, the winning screen will slide in and decide who won.
     addScore();
@@ -64,7 +64,7 @@ function playRound (playerNumber, computerNumber, styleComputer){
 
 // functions that decide how far the game goes and ends the game
 function addScore (){
-    winnerText.innerText === "computer wins"? computerScore.innerText++: winnerText.innerHTML === "player wins"? playerScore.innerText++:""
+    winnerText.innerText === "Computer Wins"? computerScore.innerText++: winnerText.innerHTML === "Player Wins"? playerScore.innerText++:""
 }
 
 function slideWinningScreen (){
